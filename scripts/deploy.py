@@ -1,7 +1,6 @@
 from brownie import FundMe, MockV3Aggregator, config, network
 
-from scripts.utils import (LOCAL_BLOCKCHAIN_ENVIRONMENT, deploy_mocks,
-                           get_account)
+from scripts.utils import LOCAL_BLOCKCHAIN_ENVIRONMENT, deploy_mocks, get_account
 
 
 def deploy_fund_me():
